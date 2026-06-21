@@ -1,0 +1,19 @@
+{
+  "student": [
+    {
+      "id": "1",
+      "name": "mishkat",
+      "email": "mishkat@gmail.com",
+      "cellNo": 9888,
+      "fee": 5000
+    },
+    {
+      "id": "2",
+      "name": "tan",
+      "email": "tanv@gmail.com",
+      "cellNo": 9888,
+      "fee": 5000
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

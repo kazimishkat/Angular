@@ -1,0 +1,48 @@
+ 
+ :root {
+      --brand:     #0f4c81;
+      --accent:    #e8a923;
+      --dark:      #0d1b2a;
+      --light-bg:  #f4f7fb;
+      --text:      #1e293b;
+      --muted:     #64748b;
+    }
+
+    * { box-sizing: border-box; }
+    body { font-family: 'DM Sans', sans-serif; color: var(--text); background: #fff; }
+    h1,h2,h3,h4,h5,.display-4,.display-5 { font-family: 'Syne', sans-serif; }
+ 
+ /* ── NAVBAR ─────────────────────────────────────── */
+    .navbar {
+      background: var(--dark);
+      padding: 0.75rem 0;
+      position: sticky; top: 0; z-index: 1000;
+      box-shadow: 0 2px 12px rgba(0,0,0,.35);
+    }
+    .navbar-brand {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 1.45rem;
+      color: #fff !important;
+      letter-spacing: -.5px;
+    }
+    .navbar-brand span { color: var(--accent); }
+    .navbar .nav-link {
+      color: rgba(255,255,255,.75) !important;
+      font-weight: 500;
+      font-size: .9rem;
+      padding: .5rem 1rem !important;
+      transition: color .2s;
+    }
+    .navbar .nav-link:hover,
+    .navbar .nav-link.active { color: #fff !important; }
+    .navbar .nav-link.active { border-bottom: 2px solid var(--accent); }
+    .btn-nav {
+      background: var(--accent);
+      color: var(--dark) !important;
+      font-weight: 700 !important;
+      border-radius: 6px;
+      padding: .4rem 1.1rem !important;
+      font-size: .88rem !important;
+    }
+    .btn-nav:hover { background: #d49a1a; }
